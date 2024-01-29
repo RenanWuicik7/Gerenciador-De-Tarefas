@@ -1,0 +1,39 @@
+.add-task-container {
+    margin: .938rem 0;
+    width: 100%;
+    display: flex;
+}
+
+.add-task-button-container {
+    margin-left: .625rem;
+    flex: 1;
+}
+
+.add-task-input {
+    height: 2.5rem;
+    padding: 0 .625rem;
+    border-radius: 5px;
+    border: none;
+    flex: 2;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 374px) {
+    .add-task-container {
+        display: block;
+        align-items: center;
+    }
+
+    .add-task-input,
+    .add-task-button-container {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .add-task-button-container {
+        width: 100%;
+        margin: 0;
+    }
+}

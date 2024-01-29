@@ -1,0 +1,29 @@
+.task-details-container {
+    background-color: var(--black);
+    margin: .938rem auto 1.7rem;
+    padding: .938rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.task-details-container h2 {
+    margin-bottom: .313rem;
+    color: var(--main-color);
+}
+
+.back-button-container {
+    width: 30%;
+    margin-top: .625rem;
+}
+
+.back-button-container a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 374px) {
+    .back-button-container {
+        width: auto;
+    }
+}
